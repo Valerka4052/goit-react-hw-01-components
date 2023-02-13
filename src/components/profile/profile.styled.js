@@ -11,10 +11,6 @@ border-bottom: 3px solid black;
 background-color: #fafaba
 `;
 export const Description = styled.div`
-display:flex;
-flex-direction: column;
-flex-wrap:wrap;
-justify-content: space-between;
 width:100%;
 `;
 export const Image = styled.img`
