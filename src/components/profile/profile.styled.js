@@ -10,9 +10,11 @@ padding: 20px;
 border-bottom: 3px solid black;
 background-color: #fafaba
 `;
+
 export const Description = styled.div`
 width:100%;
 `;
+
 export const Image = styled.img`
 display: block;
 width:100%;
@@ -22,6 +24,7 @@ border: 5px solid black;
 border-radius: 50%;
 background-color: aqua;
 `;
+
 export const DescriptionInfo = styled.p`
 padding: 10px;
 text-align: center;
@@ -33,6 +36,7 @@ border-radius: 15px;
 color: white;
 background-color: #2a2a2a;
 `;
+
 export const List = styled.ul`
 list-style: none;
 display:flex;
@@ -40,6 +44,7 @@ justify-content: space-evenly;
 padding:0;
 margin: 0;
 `;
+
 export const Item = styled.li`
 display:flex;
 flex-direction: column;
