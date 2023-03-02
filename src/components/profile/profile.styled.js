@@ -5,7 +5,7 @@ display:flex;
 flex-direction:column;
 justify-content: center;
 width:400px;
-heigth:700px;
+height:700px;
 padding: 20px;
 border-bottom: 3px solid black;
 background-color: #fafaba
@@ -21,7 +21,6 @@ display: block;
 border: 5px solid black;
 border-radius: 50%;
 background-color: aqua;
-
 `;
 export const DescriptionInfo = styled.p`
 padding: 10px;

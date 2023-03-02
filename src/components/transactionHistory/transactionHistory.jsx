@@ -1,25 +1,27 @@
 import PropTypes from 'prop-types';
-import {Box,Headers,Data,Section} from './transactionHistory.styled'
+import { Box, Headers, Data, Section } from './TransactionHistory.styled';
 export function TransactionHistory({items}) {
-      return(
+  return (
     <Box className="transaction-history">
-  <thead>
-    <Section>
-      <Headers>Type</Headers>
-      <Headers>Amount</Headers>
-      <Headers>Currency</Headers>
-    </Section>
-    </thead>
-    <tbody >
-           { items.map(({id, type, amount, currency})=>{return(
-      <Section key={id}>
-      <Data>{type}</Data>
-      <Data>{amount}</Data>
-      <Data>{currency}</Data>
-    </Section>
-   )})}
- </tbody>
-</Box>)
+      <thead>
+        <Section>
+          <Headers>Type</Headers>
+          <Headers>Amount</Headers>
+          <Headers>Currency</Headers>
+        </Section>
+      </thead>
+      <tbody >
+        {items.map(({ id, type, amount, currency }) => {
+          return (
+            <Section key={id}>
+              <Data>{type}</Data>
+              <Data>{amount}</Data>
+              <Data>{currency}</Data>
+            </Section>
+          )
+        })}
+      </tbody>
+    </Box>)
 };
 
 TransactionHistory.propTypes = {
@@ -29,6 +31,6 @@ TransactionHistory.propTypes = {
             type: PropTypes.string.isRequired,
             amount: PropTypes.string.isRequired,
             currency: PropTypes.string.isRequired,
-        })
-    )
+        }).isRequired
+  ).isRequired
 };

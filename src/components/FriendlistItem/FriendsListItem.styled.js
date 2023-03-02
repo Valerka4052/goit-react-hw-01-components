@@ -1,15 +1,5 @@
 import styled from "@emotion/styled";
 
-export const List = styled.ul`
-list-style: none;
-display:flex;
-// justify-content: space-evenly;
-padding:20px;
-margin: 0;
-width:400px;
-border-bottom: 3px solid black;
-background-color: #fafaba
-`;
 export const Item = styled.li`
 display:flex;
 flex-direction: column;
