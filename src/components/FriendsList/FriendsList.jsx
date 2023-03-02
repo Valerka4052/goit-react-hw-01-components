@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { List } from "./FriendsList.styled";
-import { FriendListItem } from '../FriendlistItem1/FriendsListItem'
+import { FriendListItem } from '../FriendlistItem/FriendsListItem'
 
 
 export function FriendsList({ friends }) {
