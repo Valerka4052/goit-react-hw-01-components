@@ -7,8 +7,7 @@ export function FriendListItem({avatar, name, isOnline}) {
         <img className="avatar" src={avatar} alt="User avatar" width="48" />
         <p className="name">{name}</p>
     </Item>);
-    
-  };
+};
 
 FriendListItem.propTypes = {
     avatar: PropTypes.string.isRequired,
